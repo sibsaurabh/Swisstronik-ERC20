@@ -1,13 +1,16 @@
-# Sample Hardhat Project
+# SwissCheese(ERC20 Contract) 
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrates the creation and deployment of a basic ERC20 contract on Swisstronik testnet. 
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+### Deploying the contract
+```
+npx hardhat run scripts/deploy.js --network swisstronik
+```
+### Minting the tokens
+```
+npx hardhat run scripts/mintSWC.js --network swisstronik
+```
+### Quering token balance for an address
+```
+npx hardhat run scripts/balanceQuery.js --network swisstronik
 ```
