@@ -1,6 +1,6 @@
 # SwissCheese(ERC20 Contract) 
 
-This project demonstrates the creation and deployment of a basic ERC20 contract on Swisstronik testnet. 
+This project demonstrates the creation and deployment of a basic ERC20 contract on Swisstronik testnet.Please review 
 
 ### Deploying the contract
 ```
